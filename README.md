@@ -5,8 +5,9 @@
 Euclidean Spaces](https://).
 
 ## Requirement
-*  [spatial liberary](http://spatial.sourceforge.net/)
+*  [spatial library](http://spatial.sourceforge.net/)
 	* We used version 2.1.8.
+	* Path to this library should be changed based on your environment, see `ddpc.hpp`.
 * The source codes of D-DPC have to be changed based on your paths of the above libraries.
 
 ## How to use
