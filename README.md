@@ -8,18 +8,19 @@ Euclidean Spaces](https://).
 *  [spatial library](http://spatial.sourceforge.net/)
 	* We used version 2.1.8.
 	* Path to this library should be changed based on your environment, see `ddpc.hpp`.
-* The source codes of D-DPC have to be changed based on your paths of the above libraries.
+* The source codes of D-DPC have to be changed based on your paths of the above library.
 
 ## How to use
 * We prepared codes for Ubuntu (20.04 LTS).
 * We assume low-dimensional datasets, as we use a kd-tree.
 	* Set dimensionality in `file_input.hpp`.
-* Compile: `g++ -O3 main.cpp -o ddpc.out -fopenmp` and run: `./ddpc.out`.
+* Compile: `g++ -O3 main.cpp -o ddpc.out -fopenmp`.
+* Run: `./ddpc.out`.
 
 ### Datasets
-* Our code inputs `csv` file, where each row shows a vector (each element is separeted by `,`.
+* Our code inputs `csv` file, where each row shows a vector whose elements are separeted by `,`.
   * For example, one 3-dimensional data is described by `1.0,10,2.5`.
-* Assign `dataset_id` as written in `input_data()` function of `data.hpp` to read your dataset.
+* For your data, assign `dataset_id` as written in `input_data()` function of `data.hpp` to read your dataset.
 * The path of your dataset can be freely changed in `data.hpp`, see `input_data()` function.
 * To simulate random point insertions and deletions, we sorted a given dataset by a random order. If you need to remove arbitrary points, please change our codes.
 
