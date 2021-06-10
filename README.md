@@ -10,7 +10,7 @@ Euclidean Spaces](https://).
 * The source codes of D-DPC have to be changed based on your paths of the above libraries.
 
 ## How to use
-* We prepared codes forLinux (Ubuntu).
+* We prepared codes for Ubuntu (20.04 LTS).
 * We assume low-dimensional datasets, as we use a kd-tree.
 	* Set dimensionality in `file_input.hpp`.
 * Compile: `g++ -O3 main.cpp -o ddpc.out -fopenmp` and run: `./ddpc.out`.
@@ -18,7 +18,7 @@ Euclidean Spaces](https://).
 ### Datasets
 * Our code inputs `csv` file, where each row shows a vector (each element is separeted by `,`.
   * For example, one 3-dimensional data is described by `1.0,10,2.5`.
-* Assign `dataset_id` as written in `data.hpp` to read your dataset.
+* Assign `dataset_id` as written in `input_data()` function of `data.hpp` to read your dataset.
 * The path of your dataset can be freely changed in `data.hpp`, see `input_data()` function.
 
 ### Parameters
