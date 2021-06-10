@@ -18,10 +18,11 @@ Euclidean Spaces](https://).
 ### Datasets
 * Our code inputs `csv` file, where each row shows a vector (each element is separeted by `,`.
   * For example, one 3-dimensional data is described by `1.0,10,2.5`.
+* Assign `dataset_id` as written in `data.hpp` to read your dataset.
+* The path of your dataset can be freely changed in `data.hpp`, see `input_data()` function.
 
 ### Parameters
 * Set some value in the corresponding txt file in `parameter`.
-
 
 ### Citation
 If you use our implementation, please cite the following paper.
