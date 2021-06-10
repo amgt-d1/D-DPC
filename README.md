@@ -20,6 +20,7 @@ Euclidean Spaces](https://).
   * For example, one 3-dimensional data is described by `1.0,10,2.5`.
 * Assign `dataset_id` as written in `input_data()` function of `data.hpp` to read your dataset.
 * The path of your dataset can be freely changed in `data.hpp`, see `input_data()` function.
+* To simulate random point insertions and deletions, we sorted a given dataset by a random order. If you need to remove arbitrary points, please change our codes.
 
 ### Parameters
 * Set some value in the corresponding txt file in `parameter`.
