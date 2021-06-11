@@ -27,6 +27,11 @@ Euclidean Spaces](https://).
 ### Parameters
 * Set some value in the corresponding txt file in `parameter`.
 
+### Notes
+* Initialization is done by Ex-DPC+ like algorithm (the dependent point of each point is computed by incremental kNN search).
+	* `initialization()` function is much similar to Ex-DPC+ (the difference is that we do not compute the kNNs of each point offline).
+	* Therefore, coding Ex-DPC+ from `initialization()` is straightforward.
+
 ### Citation
 If you use our implementation, please cite the following paper.
 ``` 
