@@ -30,7 +30,7 @@ Euclidean Spaces](https://).
 
 ### Notes
 * Initialization is done by Ex-DPC+ like algorithm (the dependent point of each point is computed by incremental kNN search).
-	* `initialization()` function is much similar to Ex-DPC+ (the main difference is that we do not compute the kNNs of each point offline).
+	* `initialization()` function is much similar to Ex-DPC+ (the main difference is that we incrementally compute the kNNs of each point online).
 	* Therefore, coding Ex-DPC+ from `initialization()` is straightforward.
 
 ### Citation
