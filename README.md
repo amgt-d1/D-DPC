@@ -30,13 +30,13 @@ Euclidean Spaces](https://).
 
 ### Notes
 * Initialization is done by Ex-DPC+ like algorithm (the dependent point of each point is computed by incremental kNN search).
-	* `initialization()` function is much similar to Ex-DPC+ (the main difference is that we incrementally compute the kNNs of each point online).
-	* Therefore, coding Ex-DPC+ from `initialization()` is straightforward, or you can use it as it is, because it is practically faster than Ex-DPC (in case of multithreading) while using the same space complexity.
+	* `initialization()` function is much similar to Ex-DPC++ (the main difference is that we incrementally compute the kNNs of each point online).
+	* Therefore, coding Ex-DPC++ from `initialization()` is straightforward, or you can use it as it is, because it is practically faster than Ex-DPC (in case of multithreading) while using the same space complexity.
 
 ### Citation
 If you use our implementation, please cite the following paper.
 ``` 
-@article{amagata2021ddpc,  
+@article{amagata2023ddpc,  
     title={Fast Density-Peaks Clustering for Static and Dynamic Data in Euclidean Spaces},  
     author={Amagata, Daichi and Hara, Takahiro},  
     booktitle={},  
