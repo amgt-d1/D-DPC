@@ -36,12 +36,12 @@ Euclidean Space](https://).
 ### Citation
 If you use our implementation, please cite the following paper.
 ``` 
-@article{amagata2023ddpc,  
-    title={Fast Density-Peaks Clustering for Static and Dynamic Data in Euclidean Spaces},  
+@article{amagata202xdpc,  
+    title={Efficient Density-Peaks Clustering Algorithms on Static and Dynamic Data in Euclidean Spaces},  
     author={Amagata, Daichi and Hara, Takahiro},  
-    booktitle={},  
-    pages={xxx--xxx},  
-    year={xxx}  
+    booktitle={ACM Transactions on Knowledge Discovery from Data},  
+    pages={xx--xx},  
+    year={202x}  
 }
 ```
 
