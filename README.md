@@ -2,7 +2,7 @@
 * This repository provides our implementation of D-DPC.
 * This is a fast algorithm for [density-peaks clustering](https://science.sciencemag.org/content/344/6191/1492.full) (proposed in Science) on fully dynamic data.
 * As for the details about this algorithm, please read our paper, [Efficient Density-Peaks Clustering Algorithms on Static and Dynamic Data in
-Euclidean Space](https://).
+Euclidean Space](https://dl.acm.org/doi/10.1145/3607873).
 
 ## Requirement
 *  [spatial library](http://spatial.sourceforge.net/)
@@ -36,12 +36,14 @@ Euclidean Space](https://).
 ### Citation
 If you use our implementation, please cite the following paper.
 ``` 
-@article{amagata202xdpc,  
+@article{amagata2024dpc,  
     title={Efficient Density-Peaks Clustering Algorithms on Static and Dynamic Data in Euclidean Spaces},  
     author={Amagata, Daichi and Hara, Takahiro},  
-    booktitle={ACM Transactions on Knowledge Discovery from Data},  
-    pages={xx--xx},  
-    year={202x}  
+    booktitle={ACM Transactions on Knowledge Discovery from Data},
+	volume={18},
+	number={1},
+    pages={2:1--2:27},  
+    year={2024}  
 }
 ```
 
