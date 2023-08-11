@@ -37,13 +37,13 @@ Euclidean Space](https://dl.acm.org/doi/10.1145/3607873).
 If you use our implementation, please cite the following paper.
 ``` 
 @article{amagata2024dpc,  
-    title={Efficient Density-Peaks Clustering Algorithms on Static and Dynamic Data in Euclidean Spaces},  
-    author={Amagata, Daichi and Hara, Takahiro},  
-    booktitle={ACM Transactions on Knowledge Discovery from Data},
+	title={Efficient Density-Peaks Clustering Algorithms on Static and Dynamic Data in Euclidean Spaces},  
+	author={Amagata, Daichi and Hara, Takahiro},  
+	booktitle={ACM Transactions on Knowledge Discovery from Data},
 	volume={18},
 	number={1},
-    pages={2:1--2:27},  
-    year={2024}  
+	pages={2:1--2:27},  
+	year={2024}  
 }
 ```
 
