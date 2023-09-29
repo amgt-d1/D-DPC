@@ -31,7 +31,6 @@ Euclidean Space](https://dl.acm.org/doi/10.1145/3607873).
 ### Notes
 * Initialization is done by [Ex-DPC++](https://github.com/amgt-d1/Ex-DPC-plus-plus) like algorithm (the dependent point of each point is computed by incremental kNN search).
 	* `initialization()` function is much similar to Ex-DPC++ (the main difference is that we incrementally compute the kNNs of each point online).
-	* Therefore, coding Ex-DPC++ from `initialization()` is straightforward, or you can use it as it is, because it is practically faster than Ex-DPC (in case of multithreading) while using the same space complexity.
 
 ### Citation
 If you use our implementation, please cite the following paper.
